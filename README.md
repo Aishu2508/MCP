@@ -1,6 +1,6 @@
 # Gmail MCP Server (Multi-User)
 
-A **Model Context Protocol (MCP)** server for **Gmail** that supports **many different users**, each connecting their own Gmail account. Built in Python with **FastMCP** and **FastAPI**, structured the same way as the WhatsApp MCP server, extended with per-user account management.
+A **Model Context Protocol (MCP)** server for **Gmail** that supports **many different users**, each connecting their own Gmail account. Built in Python with **FastMCP** and **FastAPI**,extended with per-user account management.
 
 Each user authenticates with their own Google **App Password** over standard SMTP/IMAP (no OAuth consent flow needed). Passwords are encrypted at rest and never returned by any tool or endpoint.
 
